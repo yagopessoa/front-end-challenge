@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 
-import Title from './components/Title';
-import Button from './components/Button';
-import AddButton from './components/AddButton';
-import EditButton from './components/EditButton';
-import RemoveButton from './components/RemoveButton';
-import Card from './components/Card';
-import TextInputDialog from './components/TextInputDialog';
+import Title from './base-components/Title';
+import Button from './base-components/Button';
+import AddButton from './base-components/AddButton';
+import EditButton from './base-components/EditButton';
+import RemoveButton from './base-components/RemoveButton';
+import Card from './base-components/Card';
+import TextInputDialog from './base-components/TextInputDialog';
 
 const Container = styled.div`
   padding: 24px;
