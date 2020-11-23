@@ -33,7 +33,7 @@ function Todo({ id, title, checked, onCheck, onEdit, onRemove }) {
       <Container>
         <CheckBox
           id={`todo-check-${id}`}
-          value={checked}
+          checked={checked}
           onChange={handleChange}
         />
         <TodoTitle htmlFor={`todo-check-${id}`} checked={checked}>
